@@ -6,7 +6,6 @@ import {getResolver} from "ethr-did-resolver";
 import {Resolver} from "did-resolver";
 import {EthrDID} from "ethr-did";
 
-// Load the YAML configuration
 const config = yaml.load(fs.readFileSync('./config.yaml', 'utf8'));
 const providerConfig = {
     networks: [
@@ -17,7 +16,6 @@ const providerConfig = {
 const ethrDidResolver = getResolver(providerConfig)
 const didResolver = new Resolver(ethrDidResolver)
 
-// Create a WebSocket server with the port from the config file
 const wss = new WebSocketServer({ port: config.server.port });
 
 function getEthrDid(did) {
