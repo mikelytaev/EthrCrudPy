@@ -1,0 +1,5 @@
+server:
+  port: 8080
+providers:
+  infura: '<infura api key>'
+signerPrivateKey: '<private key>'

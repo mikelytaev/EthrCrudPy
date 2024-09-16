@@ -1,0 +1,18 @@
+{
+  "name": "ethr-crud",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ethr-did": "^3.0.21",
+    "js-yaml": "^4.1.0",
+    "ws": "^8.18.0"
+  }
+}

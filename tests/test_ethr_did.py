@@ -1,6 +1,3 @@
-import asyncio
-import unittest
-
 import pytest
 from eth_account import Account
 
